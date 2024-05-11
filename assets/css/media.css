@@ -1,0 +1,22 @@
+@media only screen and (max-width: 768px) {
+    .logo a {
+        max-width: 80px; /* Adjust logo size for smaller screens */
+    }
+
+    .header-buttons {
+        display: flex; /* Show buttons on mobile */
+        gap: 10px; /* Add spacing between buttons */
+    }
+
+    .header-buttons a {
+        color: #4A01E6;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease; /* Smooth color transition on hover */
+    }
+
+    .header-buttons a:hover {
+       background-color: #4A01E6;
+       color: #ffffff;
+    }
+}

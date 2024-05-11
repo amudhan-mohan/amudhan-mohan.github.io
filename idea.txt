@@ -1,0 +1,3 @@
+skills
+
+on click on the logo go based on the projects

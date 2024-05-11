@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hovering Skill Stop</title>
+<style>
+  .skills {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .skill {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    animation: moveSkills 20s linear infinite;
+  }
+
+  .skill:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes moveSkills {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+</head>
+<body>
+
+<section class="skills">
+  <div class="skill">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 17l-2-2 6-6 2 2-6 6zm4-6.41l1.41-1.41 2.58 2.58-1.41 1.41-2.58-2.58zM13 12.17L15.17 10 17 11.83 14.83 14l-1.42-1.41z"/>
+    </svg>
+    Blender
+  </div>
+  <div class="skill">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 17l-2-2 6-6 2 2-6 6zm-1-3l5-5-1.41-1.41L9 14.17l-2.59-2.58L5 13z"/>
+    </svg>
+    Office
+  </div>
+  <div class="skill">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 17l-2-2 6-6 2 2-6 6zm-1-3l5-5-1.41-1.41L9 14.17l-2.59-2.58L5 13z"/>
+    </svg>
+    HTML
+  </div>
+  <div class="skill">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 17l-2-2 6-6 2 2-6 6zm-1-3l5-5-1.41-1.41L9 14.17l-2.59-2.58L5 13z"/>
+    </svg>
+    CSS
+  </div>
+  <div class="skill">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 17l-2-2 6-6 2 2-6 6zm-1-3l5-5-1.41-1.41L9 14.17l-2.59-2.58L5 13z"/>
+    </svg>
+    PHP
+  </div>
+  <div class="skill">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 17l-2-2 6-6 2 2-6 6zm-1-3l5-5-1.41-1.41L9 14.17l-2.59-2.58L5 13z"/>
+    </svg>
+    Premiere Pro
+  </div>
+  <div class="skill">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 17l-2-2 6-6 2 2-6 6zm-1-3l5-5-1.41-1.41L9 14.17l-2.59-2.58L5 13z"/>
+    </svg>
+    After Effects
+  </div>
+</section>
+
+</body>
+</html>

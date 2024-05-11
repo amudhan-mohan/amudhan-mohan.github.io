@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub-like Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+<style>
+    /* Reset CSS */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+
+    /* Navbar */
+    .navbar {
+        background-color: #24292e;
+        color: #fff;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        margin-right: auto;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .navbar-menu {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .navbar-menu li {
+        margin-right: 20px;
+    }
+
+    .navbar-menu li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* Header */
+    .header {
+        background-image: url('https://via.placeholder.com/1500x500'); /* Replace with your image URL */
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        padding: 150px 20px;
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .header p {
+        font-size: 1.1rem;
+        color: #fff;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    /* Main Content */
+    .container {
+        padding: 20px;
+    }
+
+    .feature {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        opacity: 0;
+        transform: translateX(-20px);
+        transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+
+    .feature.active {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .feature-icon {
+        font-size: 2rem;
+        margin-right: 20px;
+    }
+
+    /* Footer */
+    .footer {
+        background-color: #24292e;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">GitHub</a>
+        <ul class="navbar-menu">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Enterprise</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Pricing</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Welcome to GitHub Pages</h1>
+        <p>Hosted directly from your GitHub repository. Just edit, push, and your changes are live.</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="feature">
+            <i class="fas fa-code feature-icon"></i>
+            <div>
+                <h3>Code Hosting</h3>
+                <p>Host your code with version control using Git repositories.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-globe feature-icon"></i>
+            <div>
+                <h3>Web Hosting</h3>
+                <p>Host your static websites directly from your repositories.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-cogs feature-icon"></i>
+            <div>
+                <h3>Customization</h3>
+                <p>Customize your GitHub Pages with themes and templates.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-users feature-icon"></i>
+            <div>
+                <h3>Collaboration</h3>
+                <p>Collaborate with others by inviting collaborators to your repositories.</p>
+            </div>
+        </div>
+        <button onclick="scrollToContent()">Learn More</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 GitHub, Inc. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        let features = document.querySelectorAll('.feature');
+        let lastScrollTop = 0;
+
+        function fadeInFeatures() {
+            features.forEach((feature, index) => {
+                setTimeout(() => {
+                    feature.classList.add('active');
+                }, index * 600); // Adjust the delay here
+            });
+        }
+
+        function scrollToContent() {
+            document.querySelector('.container').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        window.addEventListener('scroll', function() {
+            let st = window.pageYOffset || document.documentElement.scrollTop;
+            if (st > lastScrollTop) {
+                
+                // Scrolling up
+                if (!features[0].classList.contains('active')) {
+                    fadeInFeatures();
+                }
+            } else {
+            // Scrolling down
+                if (features[0].classList.contains('active')) {
+                    features.forEach(feature => {
+                        feature.classList.remove('active');
+                    });
+                }
+            }
+            lastScrollTop = st <= 0 ? 0 : st;
+        });
+    </script>
+</body>
+</html>

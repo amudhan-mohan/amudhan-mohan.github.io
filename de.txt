@@ -1,0 +1,90 @@
+<div class="skills" style="background-color: rgb(33, 33, 33);"><div class="skillsHeader"><h2 style="color: rgb(245, 101, 57);">Skills</h2></div><div class="skillsContainer"><div class="skill--scroll"><div class=" marquee-container" style="--pause-on-hover: paused; --pause-on-click: paused;"><div class="marquee" style="--play: running; --direction: normal; --duration: 20.8s; --delay: 0s; --iteration-count: infinite;"><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/html.6a342d61.svg" alt="HTML"><h3 style="color: rgb(234, 234, 234);">HTML</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/fastify.1b930a41.svg" alt="Fastify"><h3 style="color: rgb(234, 234, 234);">Fastify</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/blender.b96901d1.svg" alt="Blender"><h3 style="color: rgb(234, 234, 234);">Blender</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/figma.1cd44608.svg" alt="Figma"><h3 style="color: rgb(234, 234, 234);">Figma</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/javascript.e9360603.svg" alt="Javascript"><h3 style="color: rgb(234, 234, 234);">Javascript</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/css.43b6f4bd.svg" alt="CSS"><h3 style="color: rgb(234, 234, 234);">CSS</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/react.2b6a0717.svg" alt="React"><h3 style="color: rgb(234, 234, 234);">React</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/django.d51a8aa4.svg" alt="Django"><h3 style="color: rgb(234, 234, 234);">Django</h3></div></div><div class="marquee" style="--play: running; --direction: normal; --duration: 20.8s; --delay: 0s; --iteration-count: infinite;"><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/html.6a342d61.svg" alt="HTML"><h3 style="color: rgb(234, 234, 234);">HTML</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/fastify.1b930a41.svg" alt="Fastify"><h3 style="color: rgb(234, 234, 234);">Fastify</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/blender.b96901d1.svg" alt="Blender"><h3 style="color: rgb(234, 234, 234);">Blender</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/figma.1cd44608.svg" alt="Figma"><h3 style="color: rgb(234, 234, 234);">Figma</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/javascript.e9360603.svg" alt="Javascript"><h3 style="color: rgb(234, 234, 234);">Javascript</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/css.43b6f4bd.svg" alt="CSS"><h3 style="color: rgb(234, 234, 234);">CSS</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/react.2b6a0717.svg" alt="React"><h3 style="color: rgb(234, 234, 234);">React</h3></div><div class="skill--box" style="background-color: rgb(33, 33, 33); box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;"><img src="https://dev-portfolio-template.netlify.app/static/media/django.d51a8aa4.svg" alt="Django"><h3 style="color: rgb(234, 234, 234);">Django</h3></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Container styles */
+        .scrolling-text-container {
+            background-color: #eff5ff;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        /* Inner container styles */
+        .scrolling-text-inner {
+            display: flex;
+            white-space: nowrap;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 8px 0;
+        }
+
+        /* Text styles */
+        .scrolling-text {
+            display: flex;
+        }
+
+        .scrolling-text-item {
+            padding: 0 30px;
+        }
+
+        /* Apply the animation to the text items */
+        .scrolling-text-inner > div {
+            animation: var(--direction) var(--marquee-speed) linear infinite;
+        }
+
+        /* Pause the animation when a user hovers over it */
+        .scrolling-text-container:hover .scrolling-text-inner > div {
+            animation-play-state: paused;
+        }
+
+        /* Setting the Animation using Keyframes */
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        @keyframes scroll-right {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scrolling-text-container">
+        <div class="scrolling-text-inner" style="--marquee-speed: 20s; --direction: scroll-left" role="marquee">
+            <div class="scrolling-text">
+                <div class="scrolling-text-item">Your First Announcement</div>
+                <div class="scrolling-text-item">Your Second Announcement</div><div class="scrolling-text">
+                <div class="scrolling-text-item">Your First Announcement</div>
+                <div class="scrolling-text-item">Your Second Announcement</div><div class="scrolling-text">
+                <div class="scrolling-text-item">Your First Announcement</div>
+                <div class="scrolling-text-item">Your Second Announcement</div><div class="scrolling-text">
+                <div class="scrolling-text-item">Your First Announcement</div>
+                <div class="scrolling-text-item">Your Second Announcement</div>
+                <!-- Add More Items Here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
